@@ -17,7 +17,7 @@ import * as actions from '../../store/actions/index';
 //     bacon: 0.7
 // };
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
     // constructor(props){
     //     super(props);
     //     this.state = {...}
@@ -27,7 +27,7 @@ class BurgerBuilder extends Component {
       
     }
     componentDidMount() {
-        console.log(this.props);
+        // console.log(this.props);
         this.props.onInitIngredients();
        
     }
